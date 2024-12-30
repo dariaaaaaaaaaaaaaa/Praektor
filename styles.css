@@ -1,0 +1,256 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    background-image: url(https://sun9-77.userapi.com/impg/ARwkev5-Y-WJhFhZrlacdCg2JvgbV5thZDCTGA/hRVG9pUppZM.jpg?size=1440x1080&quality=95&sign=17fcdd88fab5dbcc2786fdd50555e2b8&type=album); 
+    background-size: cover; 
+    background-position:center; 
+    background-repeat: no-repeat; 
+}
+
+.table-container {
+    display: flex;
+    justify-content: center; 
+    
+    
+}
+
+.words-table {
+    border-collapse: collapse; 
+}
+
+.words-table td {
+    
+    padding: 50px; 
+    border: 1px solid rgba(255, 255, 255, 0); 
+    color: white; 
+    text-align: center; 
+    font-size: 1.70rem;
+}
+
+    
+.container2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 1%;
+    padding-top: 515px;
+    padding-bottom: 2000px;
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.80rem; 
+    color: white; 
+    text-align: center; 
+    margin: 30%;
+    padding: 60;
+    line-height: 40px;
+}
+
+
+body:after {
+    content: '';
+    position: absolute; 
+    top: 930px; 
+    left: 0;
+    right: 0;
+    height: calc(100vh);
+    background-image: url(https://psv4.userapi.com/s/v1/d/zK2dUGYKGRdpG2FNpfPSxL4Vh3zNyl0dXuiE6H5_V6xBIBo2-azTMn7PjLJMO9TWImBbxkscMkctnNHyIWETqMPu8niEBWIaBnxjAr9GUPkg7X-raOgV8g/Bez_nazvania332_20241229183901.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+   
+}
+
+.info-container {
+    position: absolute; 
+    top: 1010px;
+    right: 300px; 
+    color: white; 
+    z-index: 1;
+    line-height: 37px
+}
+
+.info-title {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 1.70rem;
+    margin: 0;
+    text-align: center
+}
+
+.info-text {
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 1.20rem;
+    margin-top: 50px;
+    text-align: left
+}
+
+
+.container3 {
+    content: '';
+    position: absolute; 
+    top: 1660px; 
+    left: 0;
+    right: 0;
+    height: calc(100vh);
+    background-image: url(https://psv4.userapi.com/s/v1/d/BIOZETQocTwzmsqiY1NR15fNjzPqXO-aTu0KEq9qrTH4gwuXzzySXr6_Gga6n4eTeovU5LTaWkJoCenLGPWUiyOXWg5fVU-GQ8x1h1s7zNI-zTGTg7MmHg/Bez_nazvania332_20241229222122.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
+.info-container2 {
+    position: absolute; 
+    top: 1671px;
+    color: rgb(0, 0, 0); 
+    z-index: 2; 
+    line-height: px
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 1.70rem; 
+    right: 46%;
+    margin-top: 0; 
+}
+
+
+.container4 {
+    content: '';
+    position: absolute; 
+    top: 2490px; 
+    left: 0;
+    right: 0;
+    height: calc(100vh);
+    background-image: url(https://psv4.userapi.com/s/v1/d/saSbi5xXhdEhOGm-La5oVDWvBgIHsQjrabt5azPpaXH3JQz38AgHo1z6kmEDfWXQSXpwE7qOYx8iFobCdGtm7MTS1xuF5oQAJT9FZx9P7ffl4o_BVnkcvA/Bez_nazvania332_20241230044336.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    z-index: ; 
+}
+
+.info-title3{
+    position: relative; 
+    margin: 2160px 0 0 0;
+    left: 370px;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.ticket-link {
+    position: absolute; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem; 
+    color: white; 
+    text-decoration: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ticket-link:hover {
+    color: lightgray;
+}
+
+
+
+.body2 {
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    background-image: url('path/to/your/image.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; }
+
+.table-container2 {
+    display: flex;
+    justify-content: center; 
+    padding: 5px;
+}
+
+.words-table2 {
+    border-collapse: collapse;
+}
+
+.words-table2 td {
+    padding: 15px; 
+    border: 1px solid rgba(255, 255, 255, 0);
+    color: white;
+    text-align: center;
+}
+
+.container6 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 50%;
+}
+
+.container7 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 50%; 
+}
+
+.container5 {
+    position: relative; 
+    height: 1080px; 
+    background-color: rgba(228, 228, 228, 0); 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.slider {
+    position: relative;
+    max-width: 860px; 
+    width: 100%; 
+}
+
+.slides {
+    display: flex; 
+    overflow: hidden;
+}
+
+.slide {
+    min-width: 100%;
+    transition: transform 0.6s ease;
+}
+
+.prev, .next {
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    background-color: rgba(255, 255, 255, 0.7); 
+    border: none;
+    cursor: pointer;
+    padding: 10px; 
+    z-index: 10;
+}
+
+.prev {
+    left: 10px; 
+}
+
+.next {
+    right: 10px;
+}
+
+
+
+.container9 {
+        content: '';
+        position: absolute; 
+        top: 4200px; 
+        left: 0;
+        right: 0;
+        height: calc(100vh);
+        background-image: url(https://psv4.userapi.com/s/v1/d/cSEj2PeWZhmiI5jM3lx3YupEovfyMgxm8MhJvtZ4EEylQeX1Zb-3nTXH-6vXwEq1318-KauSF7NKPtR365o7EMzX_8bKG8WCX6RgYeC3D7sMb7yS5b_Clw/Bez_nazvania332_20241230060757.jpg); 
+        background-size: cover; 
+        background-position: content; 
+        background-repeat: no-repeat; 
+        z-index: 
+}
+

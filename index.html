@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>фон</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bergamasco:ital,wght@1,400&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body> 
+
+    <title>наслоение</title>
+    <style>
+        body {
+                    position: relative; 
+                    margin: 0;
+                    padding: 0;
+                    height: 100vh; 
+                    background-color: #f0f0f0; 
+                }
+        
+            </style>
+            
+    <div class="table-container">
+        
+        <table class="words-table">
+            <tr>
+                <td>кинотеатр</td>
+                <td>связь</td>
+                <td>поколений</td>
+                <td>занавес</td>
+                <td>истории</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="container2">
+        <p class="text">Отпечаток судеб каждого записан и сохранён на «Плёнку Времени». Стоит лишь найти нужную полку в нескончаемом потоке архива, и история на экране.
+Есть особенное место, где возможно приоткрыть занавес истории. Плёнка для фильма показывает ваших предков и дальних родственников в кинозале «Праектора».</p> 
+    </div>
+
+    <div class="info-container">
+        <h2 class="info-title">Инфо</h2>
+        <p class="info-text">Технология создания фильма<br>
+            Для того, чтобы посмотреть<br>
+            кино про своих дальних<br>
+            родственников,<br>
+            необходимо сделать анализ<br>
+            крови посетителя.<br>
+            Информация, содержащаяся<br>
+            в геноме человека,<br>
+            позволяет «Пленке<br>
+            времени» найти случайного<br>
+            родственника<br>
+            в «Архиве истории».</p>
+    </div>
+
+    <div class="container3"></div>
+
+
+    <div class="info-container2">
+        <h3 class="info-title2">Афиша</h3> 
+    </div>
+
+
+    <div class="container4"></div>
+    <p class="info-title3"><a href="#" class="ticket-link">Приобрести билеты online</a></p>
+    </div>
+
+
+    <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фоновое изображение</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Open+Sans:wght@400&display=swap" rel="stylesheet"> 
+    
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <div class="table-container">
+        <table class="words-table">
+            <tr>
+                <td>Слово 1</td>
+                <td>Слово 2</td>
+                <td>Слово 3</td>
+                <td>Слово 4</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="container">
+        <h1 class="title3"></h1> 
+    </div>
+    <div class="container2">
+        <p class="text"></p> 
+    </div>
+    
+    <div class="container5">
+        <div class="slider" id="slider">
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <div class="slides">
+                <img src="https://psv4.userapi.com/s/v1/d/dGJ-RTbn375PBPmzIxcg6S6_oPfl4s0rK5vTuzpBcaO6UeFkgEVe3yX2jkVmn9snqB6dz2_XFYByd-xe96f4O2VorJCx53YUyJwCzaryyKbMmt3-ox2Rnw/Bez_nazvania332_20241230041316.jpg" class="slide" style="display: block;">
+                <img src="https://psv4.userapi.com/s/v1/d/Jx4m83yCPAVFymjoaxXCdK018hOMvsaPJKrGSHEHIwQBbGIxDAJ5_Y4JLb_QmnR3peWDmeMPjbEs1Wqoq9IDsnZ4gMo0rt3ADwjL1P3RlsW8OYtv_KUYeg/Bez_nazvania332_20241230041446.jpg" class="slide">
+                <img src="https://psv4.userapi.com/s/v1/d/d18t1XGKS0BXH5xxEbjMv-i-xS3sc10rKPENvqi4PFPiMgc68-fFPf2igY-qP0d1p6JoyPjwIs3myXO7Nmn_bmNhpTm_2EjnN2DPXpy-E7Jv6PoK7koOLw/Bez_nazvania332_20241230041806.jpg" class="slide">
+            </div>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+    </div>
+    
+    <script>
+        let slideIndex = 0;
+        showSlides(slideIndex);
+
+        function changeSlide(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function showSlides(n) {
+            let slides = document.getElementsByClassName("slide");
+            if (n >= slides.length) { slideIndex = 0; }
+            if (n < 0) { slideIndex = slides.length - 1; }
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slides[slideIndex].style.display = "block";  
+        }
+    </script>
+</body>
+</html>
+
+<div class="container9">
+    <p4>///</p4>
+</div>
+
+    
+</body>
+</html>
